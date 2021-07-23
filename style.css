@@ -14,10 +14,14 @@ body{
 #head-button{
     background: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
 border-radius: 6px;
+border: none;
 
 }
 .fa-arrow-right{
     margin-left: 10px;
+}
+li a:hover{
+    font-size: 1.1em;
 }
 h1{
     font-size: 56px;
@@ -35,6 +39,11 @@ main{
     justify-content: center;
     align-items: center;
 }
+.card .btn{
+    background-color: black;
+    color: white;
+    border: none;
+}
 h5{
     font-weight: 600;
 font-size: 24px;
@@ -42,7 +51,27 @@ margin: 0 auto;
 }
 p{
     color: #4E4E4E;
+   
 }
 #Subscribe{
     background-color: #FFF2F1 !important;
+}
+.btn:hover {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+ .card img:hover{
+     transform: scale(1.2);
+     -webkit-transform: scale(1.2);
+     -moz-transform: scale(1.2);
+     -ms-transform: scale(1.2);
+     -o-transform: scale(1.2);
+}
+.input{
+    border-radius: 15px;
+    height: 40px;
+    text-align: center;
 }
