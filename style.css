@@ -1,61 +1,75 @@
-.panda-bg-gradient{
-   background-color: #FEEAE9;
+.panda-bg-gradient {
+    background-color: #FEEAE9;
 }
-body{
+
+body {
     margin: 0%;
-    background-color:#ffffff;
+    background-color: #ffffff;
     font-family: Poppins;
-    
-}
-.color-megenta{
-    color:#FF136F;
 
 }
-#head-button{
+
+.color-megenta {
+    color: #FF136F;
+
+}
+
+#head-button {
     background: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
-border-radius: 6px;
-border: none;
+    border-radius: 6px;
+    border: none;
 
 }
-.fa-arrow-right{
+
+.fa-arrow-right {
     margin-left: 10px;
 }
-li a:hover{
+
+li a:hover {
     font-size: 1.1em;
 }
-h1{
+
+h1 {
     font-size: 56px;
 }
-header{
+
+header {
     margin-bottom: 20px;
 }
-main{
+
+main {
     margin-top: 20px;
-    background-color:#F4F4F4;
+    background-color: #F4F4F4;
     padding: 1px;
     margin-bottom: 50px;
 }
-.card{
+
+.card {
     justify-content: center;
     align-items: center;
 }
-.card .btn{
+
+.card .btn {
     background-color: black;
     color: white;
     border: none;
 }
-h5{
+
+h5 {
     font-weight: 600;
-font-size: 24px;
-margin: 0 auto;
+    font-size: 24px;
+    margin: 0 auto;
 }
-p{
+
+p {
     color: #4E4E4E;
-   
+
 }
-#Subscribe{
+
+#Subscribe {
     background-color: #FFF2F1 !important;
 }
+
 .btn:hover {
     transform: scale(1.1);
     -webkit-transform: scale(1.1);
@@ -63,14 +77,16 @@ p{
     -ms-transform: scale(1.1);
     -o-transform: scale(1.1);
 }
- .card img:hover{
-     transform: scale(1.2);
-     -webkit-transform: scale(1.2);
-     -moz-transform: scale(1.2);
-     -ms-transform: scale(1.2);
-     -o-transform: scale(1.2);
+
+.card img:hover {
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
 }
-.input{
+
+.input {
     border-radius: 15px;
     height: 40px;
     text-align: center;
