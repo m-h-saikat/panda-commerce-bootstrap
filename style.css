@@ -1,3 +1,48 @@
 .panda-bg-gradient{
    background-color: #FEEAE9;
 }
+body{
+    margin: 0%;
+    background-color:#ffffff;
+    font-family: Poppins;
+    
+}
+.color-megenta{
+    color:#FF136F;
+
+}
+#head-button{
+    background: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
+border-radius: 6px;
+
+}
+.fa-arrow-right{
+    margin-left: 10px;
+}
+h1{
+    font-size: 56px;
+}
+header{
+    margin-bottom: 20px;
+}
+main{
+    margin-top: 20px;
+    background-color:#F4F4F4;
+    padding: 1px;
+    margin-bottom: 50px;
+}
+.card{
+    justify-content: center;
+    align-items: center;
+}
+h5{
+    font-weight: 600;
+font-size: 24px;
+margin: 0 auto;
+}
+p{
+    color: #4E4E4E;
+}
+#Subscribe{
+    background-color: #FFF2F1 !important;
+}

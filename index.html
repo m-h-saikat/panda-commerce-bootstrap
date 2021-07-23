@@ -10,16 +10,19 @@
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 
+    <!-- fontawesome kits  -->
+    <script src="https://kit.fontawesome.com/1b3ace6620.js" crossorigin="anonymous"></script>
+
   <title>Panda Commerce</title>
 </head>
 
 <body>
   <!-- Head Section  -->
-  <header>
+  <header style="background-color:white;">
 
     <!-- Nab Bar Start  -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light " style="font-size: 1.2em;">
+      <div class="container ">
         <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -66,9 +69,9 @@
               <p>
                 This is the best headphone in the world for people who just want to waste time in front of funky world.
               </p>
-              <h2>$420</h2>
+              <h2 class="color-megenta">$420</h2>
               <div>
-                <div class="btn btn-warning">Buy Now</div>
+                <div id="head-button" class="btn btn-warning">Buy Now  <i class="fas fa-arrow-right"></i></div>
               </div>
 
             </div>
@@ -84,14 +87,13 @@
               <h1>
 
                 <h1>
-                  Mega LCD TV For Sports
-                </h1>
+                  Mi LED TV 4A PRO 32</h1>
                 <p>
                   This is the best tv in the world for people who just want to waste time in front of tv.
                 </p>
-                <h2>$1200</h2>
+                <h2 class="color-megenta"  >$1200</h2>
                 <div>
-                  <div class="btn btn-warning">Buy Now</div>
+                  <div id="head-button" class="btn btn-warning">Buy Now  <i class="fas fa-arrow-right"></i> </div>
                 </div>
             </div>
             <div class="col-lg-5">
@@ -110,9 +112,9 @@
               <p>
                 This is the best x-box in the world for people who just want to waste time in front of fake sports.
               </p>
-              <h2>$600</h2>
+              <h2 class="color-megenta">$600</h2>
               <div>
-                <div class="btn btn-warning">Buy Now</div>
+                <div id="head-button" class="btn btn-warning">Buy Now  <i class="fas fa-arrow-right"></i></div>
               </div>
             </div>
             <div class="col-lg-5">
@@ -141,9 +143,10 @@
 
     <section id="Product">
       <div class="container w-75">
-        <div class="row g-2">
+        <h2 style="margin-bottom: 24px;">Catagories</h2>
+        <div class="row g-2 ">
           <div class="col-lg-4 ">
-            <div class="p-3 border bg-warning d-flex align-items-center justify-content-between border rounded-3">
+            <div  class="p-3 border bg-warning d-flex align-items-center justify-content-between border rounded-3">
               <h1 style="color: white;">Watch</h1>
               <img src="images/categories/watch.png" width="68px" height="90px" alt="">
             </div>
@@ -164,16 +167,17 @@
       </div>
     </section>
 
-    <!-- Catagories Part Start  -->
+    <!-- Catagories Part End  -->
   </header>
 
 
   <!-- Main Section Start -->
-
+<main>
   <!-- Shoes Start -->
   <section class="container mt-5" id="Shoes">
-    <h2>Shoes</h2>
-    <div class="row row-cols-1 row-cols-lg-4  g-4 justify-content-center">
+    <h2 style="margin-left: 156px;">Shoes</h2>
+    <div class="row row-cols-1 row-cols-lg-4  g-4 justify-content-center ">
+      
       <div class="col ">
         <div class="card border-0 rounded-3 shadow-lg h-100 m-1 p-3 ">
           <img src="images/shoes/shoe-1.png" width="336px" height="202px" class="card-img-top" alt="...">
@@ -183,7 +187,7 @@
             <h5>$1289</h5>
             <div>
               <div>
-                <div class="btn btn-warning">Buy Now</div>
+                <div class="btn btn-warning">Buy Now  <i class="fas fa-arrow-right"></i></div>
               </div>
             </div>
 
@@ -199,7 +203,7 @@
             <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
             <h5>$799</h5>
             <div>
-              <div class="btn btn-warning">Buy Now</div>
+              <div class="btn btn-warning">Buy Now  <i class="fas fa-arrow-right"></i></div>
             </div>
           </div>
         </div>
@@ -207,12 +211,12 @@
       <div class="col">
         <div class="card border-0 rounded-3 shadow-lg h-100 m-1 p-3">
           <img src="images/shoes/shoe-3.png" width="336px" height="202px" class="card-img-top" alt="...">
-          <div class="card-body">
+          <div class="card-body justify-content-center align-items-center">
             <h5 class="card-title">Reebok All Terrain</h5>
             <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
             <h5>$699</h5>
             <div>
-              <div class="btn btn-warning">Buy Now</div>
+              <div class="btn btn-warning">Buy Now  <i class="fas fa-arrow-right"></i></div>
             </div>
           </div>
         </div>
@@ -224,8 +228,8 @@
 
 
   <!-- Bags Start -->
-  <section class="container mt-5" id="Bags">
-    <h2>Backpack</h2>
+  <section class="container mt-5 mb-5" id="Bags">
+    <h2 style="margin-left: 156px;">Backpack</h2>
     <div class="row row-cols-1 row-cols-lg-4  g-4 justify-content-center">
       <div class="col ">
         <div class="card border-0 rounded-3 shadow-lg h-100 m-1 p-3 ">
@@ -234,8 +238,8 @@
             <h5 class="card-title">Ison Backpack</h5>
             <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
             <h5>$1289</h5>
-            <div>
-              <div class="btn btn-warning">Buy Now</div>
+            <div >
+              <div class="btn btn-warning ">Buy Now  <i class="fas fa-arrow-right"></i></div>
             </div>
           </div>
         </div>
@@ -248,7 +252,7 @@
             <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
             <h5>$799</h5>
             <div>
-              <div class="btn btn-warning">Buy Now</div>
+              <div class="btn btn-warning">Buy Now  <i class="fas fa-arrow-right"></i></div>
             </div>
           </div>
         </div>
@@ -261,7 +265,7 @@
             <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
             <h5>$699</h5>
             <div>
-              <div class="btn btn-warning">Buy Now</div>
+              <div class="btn btn-warning">Buy Now  <i class="fas fa-arrow-right"></i></div>
             </div>
           </div>
         </div>
@@ -271,16 +275,17 @@
   </section>
   <!-- Bags End  -->
 
-
+</main>
   <section id="Subscribe" class="container d-flex justify-content-center bg-light align-items-center "
     style="height: 300px;">
     <div>
-      <h1>LET'S STAY IN TOUCH</h1>
+      <h5>LET'S STAY IN TOUCH</h5>
       <p>Get updates on sales specials and more</p>
       <input type="text" name="" id="" placeholder="Enter Your Email">
       <div class="btn btn-warning">Send</div>
     </div>
   </section>
+  
   <!-- Main Section End -->
 
 
